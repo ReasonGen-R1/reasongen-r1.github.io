@@ -131,6 +131,7 @@ body {
 .results-carousel {
   overflow: hidden;
   height: 75%;
+  padding-bottom: 0;
 }
 
 .results-carousel .item {
