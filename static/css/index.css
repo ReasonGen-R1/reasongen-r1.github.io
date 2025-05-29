@@ -19,8 +19,19 @@ body {
 
 
 .teaser .hero-body {
+  background: #ffffff;
   padding-top: 0;
   padding-bottom: 3rem;
+}
+
+.hero-body {
+  background: #c1e6de;
+}
+
+.publication-title .first-line {
+  display: inline-block;
+  position: relative;
+  top: 20px;
 }
 
 .teaser {
