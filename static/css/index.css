@@ -133,18 +133,24 @@ body {
 }
 
 .results-carousel .item {
-  height: 500px;
-  margin: 5px;
+  width: 96%;
+  height: 60%;
+  margin: 2%;
+
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
-  padding: 20px;
-  font-size: 0;
+
+
 }
 
 .results-carousel .item img {
-  height: 100%;          /* 让图片撑满 item 的高度 */
-  width: auto;           /* 宽度等比缩放 */
-  display: block;        /* 去除底部可能的间隙 */
-  margin: 0 auto;        /* 居中对齐 */
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  flex-shrink: 0;
 }
 
 .results-carousel video {
