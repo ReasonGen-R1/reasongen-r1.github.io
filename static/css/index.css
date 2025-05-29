@@ -133,10 +133,18 @@ body {
 }
 
 .results-carousel .item {
+  height: 500px;
   margin: 5px;
   overflow: hidden;
   padding: 20px;
   font-size: 0;
+}
+
+.results-carousel .item img {
+  height: 100%;          /* 让图片撑满 item 的高度 */
+  width: auto;           /* 宽度等比缩放 */
+  display: block;        /* 去除底部可能的间隙 */
+  margin: 0 auto;        /* 居中对齐 */
 }
 
 .results-carousel video {
