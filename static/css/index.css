@@ -23,8 +23,16 @@ body {
   padding-bottom: 3rem;
 }
 
+/* .hero-body{
+  background: #ffffff;
+} */
+
 .green-part {
   background: #c1e6de;
+}
+
+.white-part {
+  background: #ffffff;
 }
 
 .publication-title .first-line {
