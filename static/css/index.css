@@ -130,13 +130,13 @@ body {
 
 .results-carousel {
   overflow: hidden;
-  height: 75%;
+  height: 70%;
   padding-bottom: 0;
 }
 
 .results-carousel .item {
   width: 96%;
-  height: 92%;
+  height: 90%;
   margin: 2%;
 
     
